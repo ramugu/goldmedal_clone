@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.body{
+    background: #f6f6f6;
+}
+.ml
+{
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#search-input
+{
+    width: 180px;
+    padding: 8px;
+    font-size: 11px;
+    border: 1px solid #f5f5f6;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    position: relative;
+    background: #f5f5f6;
+}
+.table tr{
+    width: 100%;
+    height: 50px;
+}
+.table tr td{
+    height: 10px;
+    width: 10px;
+    margin: 0;
+    padding: 0;
+    text-align:start;
+    border-collapse: collapse;
+}
+.table tr td:hover
+{
+    cursor: pointer;
+    background: #000000;
+    color: white;
+}
+.table tr td img:hover{
+    opacity:0.2;
+    cursor: pointer;
+    background: #000000;
+    color: white;
+
+}
+.hover-text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: relative;
+  }
+  
+  .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid ;
+    width: 165px;
+    padding: 5px;
+  }
+  
+  .overlay:hover .hover-text {
+    opacity: 1;
+  }
+
+.table{
+    margin-bottom: 0;
+}
+
+.table tr td img{
+    height: 250px;
+    width: 100%;
+}
+.table tr td:first-child{
+    width: 25%;
+}
+.table tr td:last-child{
+    width: 25%;
+}
+.table tr td:nth-last-child(2){
+    width: 25%;
+}
+
+.table tr td:nth-last-child(3){
+    width: 25%;
+}
+
+.table tr td h4{
+    margin: 65px 50px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: large;
+    font-weight: bold;
+}
+.table tr td p{
+    margin: 65px 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight:400;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+.more-info
+{
+    padding: 12px 30px;
+    background: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+    outline: none;
+    margin-top: 55px;
+
+}
+.cap a{
+    text-decoration: none;
+    color: black;
+}
+
+.about{
+    width: 100%;
+    font-size: 14px;
+    text-align: justify;
+}
+.icon a{
+    color:black;
+    padding: 3px;
+}
+.cp1{
+    position: relative;
+}
+.butone{
+    position: absolute;
+    left: 200px;
+    bottom: 160px;
+    color: #f6f6f6;
+    width: 250px;
+    line-height: 40px;
+}
+.butonee{
+    position: absolute;
+    left: 120px;
+    bottom: 130px;
+    color: #f6f6f6;
+    width: 250px;
+    line-height: 49px;
+}
+.butoneee{
+    position: absolute;
+    left: 200px;
+    bottom: 160px;
+    color: #f6f6f6;
+    width: 350px;
+    line-height: 40px;
+}
+.butoneeee{
+    position: absolute;
+    left: 220px;
+    bottom: 160px;
+    color: #f6f6f6;
+    width: 350px;
+    line-height: 40px;
+}
+.buttwo{
+    position: absolute;
+    bottom: 150px;
+    left: 760px;
+    color: #f6f6f6;
+    width: 250px;
+    line-height: 40px;
+}
+.buttwoo{
+    position: absolute;
+    bottom: 160px;
+    left: 620px;
+    color: #f6f6f6;
+    width: 350px;
+    line-height: 45px;
+}
+.buttwooo{
+    position: absolute;
+    bottom: 90px;
+    left: 650px;
+    color: #f6f6f6;
+    width: 550px;
+    line-height: 50px;
+}
+.buttwoooo{
+    position: absolute;
+    bottom: 150px;
+    left: 650px;
+    color: #f6f6f6;
+    width: 550px;
+    line-height: 45px;
+}
